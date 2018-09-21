@@ -1,4 +1,11 @@
-/* Index for Horizontal Nav Bar */
+/* Index for Horizontal Nav Bar 
+
+ul.topnav:7
+ul.topnav li: 16
+ul.topnav li a:20
+ul.topnav li a:hover: 29
+
+*/
 
 ul.topnav {
   list-style-type: none;
@@ -46,7 +53,7 @@ ul.topnav li.right {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: rgb(24, 34, 184);
+    background-color:#138433;
 }
 
 li.dropdown {
