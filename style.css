@@ -1,4 +1,4 @@
-/* Index 
+/*  
 Margin: 25px (all sides)
 
 Marging: 25px 25px  1st is up and down, the second number is left and right
@@ -9,23 +9,54 @@ Margin: 25px 25px 25px 25px up, right, down, left
 
 */
 
-/* Nav Bar */
+/* Index
+Vertical NavBar 21-56
+ul: 20
+li: 37
+li a: 43
+li a:hover: 52
 
-ul {
-    list-style-type: none;
-    /* Remove the bullet points */
-    margin: 0;
-    padding: 0;
-    /*  remove browser default settings */
-}
+*/
 
 /* Vertical Navigation Bar */
+ul {
+  list-style-type: none;
+  /* Remove the bullet points */
+  margin: 0;
+  padding: 0;
+  /*  remove browser default settings */
+  border: 1px solid #555;
+  /* Around the ul */
+  width: 200px;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* fills the entire page and Enable scrolling if the sidenav has too much content */
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+  /* at the bottom of each li */
+}
 
 li a {
-    display: block;
-    /*  Displaying the links as block elements makes the whole link area clickable */
-    width: 200px;
-    background-color: #dddddd;
-    padding: 8px 16px; 
-
+  display: block;
+  /*  Displaying the links as block elements makes the whole link area clickable */
+  background-color: #dddddd;
+  padding: 8px 16px;
 }
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*End Vertical Navigation Bar */
+
+    
+    
+    
+
+
+
