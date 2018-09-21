@@ -35,3 +35,41 @@ ul.topnav li.right {
     ul.topnav li {float: none;}
 }
 
+/* Drop down Menu */
+
+.dropbtn {
+    display: inline-block;
+    /* inline-block to display them horizontally (side by side). */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(24, 34, 184);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #160303;
+    min-width: 200px;
+    z-index: 1;
+    /* The z-index property specifies the stack order of an element.
+
+An element with greater stack order is always in front of an element with a lower stack order. */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
