@@ -1,0 +1,31 @@
+/* Index 
+Margin: 25px (all sides)
+
+Marging: 25px 25px  1st is up and down, the second number is left and right
+
+Margin: 25px 25px 25px 1st is up, 2nd is righ and left, and 3rd is down
+
+Margin: 25px 25px 25px 25px up, right, down, left
+
+*/
+
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    /* Remove the bullet points */
+    margin: 0;
+    padding: 0;
+    /*  remove browser default settings */
+}
+
+/* Vertical Navigation Bar */
+
+li a {
+    display: block;
+    /*  Displaying the links as block elements makes the whole link area clickable */
+    width: 200px;
+    background-color: #dddddd;
+    padding: 8px 16px; 
+
+}
