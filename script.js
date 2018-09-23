@@ -1,4 +1,5 @@
 /* Index of functions
+clear console: the ban circle
 If else: 7
 For loop Birds:39
 
@@ -74,3 +75,15 @@ let awesomeBirds = ['Bluebird', 'Roadrunner', 'DesertDove', 'Pigeon','Bluebird']
         }
 
     }
+
+    let btn = document.getElementById('btn');
+
+    function  input() {
+        let first = document.getElementById('first').value;
+        let age = parseInt(document.getElementById('age').value);
+        age += 2;
+        console.log (first);
+        console.log (age);
+    }
+
+    btn.addEventListener ('click', input);

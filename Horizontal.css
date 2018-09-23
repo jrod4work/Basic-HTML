@@ -82,7 +82,7 @@ An element with greater stack order is always in front of an element with a lowe
 }
 
 .button1 {   
-    background-color: blue; /* Green */
+    background-color: blue; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -94,7 +94,19 @@ An element with greater stack order is always in front of an element with a lowe
     cursor: pointer;
 }
 .button2 {   
-    background-color: Green; /* Green */
+    background-color: Green; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button3 {   
+    background-color: rgb(12, 50, 96); /*  */
     border: none;
     color: white;
     padding: 15px 32px;
