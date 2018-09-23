@@ -61,6 +61,8 @@ li.dropdown {
   z-index: 1;
 }
 
+/* 
+Buttons */
 .button1 {
   background-color: blue;
   border: none;
@@ -114,6 +116,12 @@ img {
 
 <p id="postAddress"></p> */
 
+.id {
+  text-align: center
+}
+
+
+
 #postFullName {
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -129,14 +137,28 @@ img {
   padding-left: 5%;
 }
 
+.button4 {
+  background-color: rgb(12, 50, 96); /*  */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 15px auto;
+  /* centers button somehow */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  position:relative;
+
+}
+
 #idCard {
-  margin: auto;
-
+  margin: 0 auto;
   border: 5px solid black;
-
   height: 14em;
   width: 25em;
-  margin-top: 80px;
   background-color: #3090d0;
 }
 
