@@ -1,7 +1,11 @@
 /* Index of functions
 clear console: the ban circle
-If else: 7
-For loop Birds:39
+If else: 8
+Big or small:41
+Birds: 56
+Name and Age: 82
+Id Card:98
+
 
 */
 
@@ -87,3 +91,28 @@ let awesomeBirds = ['Bluebird', 'Roadrunner', 'DesertDove', 'Pigeon','Bluebird']
     }
 
     btn.addEventListener ('click', input);
+    // the first one is the event, and the second is a function
+
+
+
+    function idCard(){
+        var firstName = document.getElementById('firstName').value;
+        var lastName = document.getElementById('lastName').value;
+        var age = document.getElementById('age1').value;
+        var phone = document.getElementById('phoneNumber1').value; 
+        var address = document.getElementById('address').value;
+       
+
+        var postFullName = firstName + " " + lastName;
+        document.getElementById('postFullName').innerHTML = 'Name: ' + postFullName;
+        
+        var postAge = age;
+        document.getElementById('postAge').innerHTML = 'Age: ' + postAge;
+
+        var postPhone = phone;
+        document.getElementById('postPhone').innerHTML = 'Phone Number: ' + postPhone;
+
+        var postAddress = address;
+        document.getElementById('postAddress').innerHTML = 'Address: ' + postAddress;
+       
+        }

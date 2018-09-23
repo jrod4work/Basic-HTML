@@ -6,47 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="Horizontal.css">
-
+    <link rel="stylesheet" href="4-css.css">
 </head>
 
 <body>
+    <nav>
+        <ul class="topnav">
+            <li>
+                <a href="1-index.html"> First page</a>
+            </li>
+            <li>
+                <a href="2-NavBarVer.html"> Vertical NavBar</a>
+            </li>
+            <li>
+                <a href="3-NavBarHori.html"> Horizontal NavBar</a>
+            </li>
+            <li>
+                <a href="4-JS.HTML"> Javascript</a>
+            </li>
+            <li class="right">
+                <a href=""> About</a>
+            </li>
+            </div>
 
-    <ul class="topnav">
-        <li>
-            <a href="1-index.html"> First page</a>
-        </li>
-        <li>
-            <a href="2-NavBarVer.html"> Vertical NavBar</a>
-        </li>
-        <li>
-            <a href="3-NavBarHori.html"> Horizontal NavBar</a>
-        </li>
-        <li>
-            <a href="4-JS.HTML"> Javascript</a>
-        </li>
-        <li class="right">
-            <a href=""> About</a>
-        </li>
+        </ul>
+    </nav>
 
-        <li class="dropdown">
 
-            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
-
-            <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-        </li>
-        </div>
-
-    </ul>
 
     <div>
+        <h1>Calculate Grade</h1>
         <button class="button1" onclick="myFunction()">Enter Grade</button>
-        <button class="button1" onclick="calculateNumbers()"> Calculate</button>
 
+
+        <h1>Determine if the number is bigger than ten</h1>
+        <button class="button1" onclick="calculateNumbers()"> Determine</button>
+
+        <h1>if and else loop</h1>
         <button class="button2" onclick="birds()">Birds</button>
+
+
+<h1>DOM</h1>
         <div>
             <label> Name:
                 <input id="first" placeholder="Name">
@@ -55,8 +55,64 @@
                 <input id="age" placeholder="Age">
             </label>
 
-            <button class="button3" id= "btn" onclick="birds()">Name and Age</button>
+            <button class="button3" id="btn">Name and Age</button>
         </div>
+    </div>
+
+    <div>
+<H1>Create an ID Card</H1>
+
+        <label>First Name:
+            <br>
+            <input id="firstName" placeholder="First Name">
+        </label>
+
+        <br>
+
+        <label>Last Name:
+            <br>
+            <input id="lastName" placeholder="Last Name">
+        </label>
+
+        <br>
+
+        <label> Age:
+            <br>
+            <input id="age1" placeholder="Age">
+        </label>
+
+        <br>
+
+        <label> Phone Number:
+            <br>
+
+            <input id="phoneNumber1" placeholder="Phone Number"=>
+        </label>
+
+        <br>
+
+        <label> Address:
+            <br>
+            <input id="address" placeholder="Address"=>
+        </label>
+        <br>
+
+    </div>
+
+    <button onclick="idCard()">idCard</button>
+
+    <div id="idCard">
+
+        <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+
+        <p id="postFullName"></p>
+
+        <p id="postAge"></p>
+
+        <p id="postPhone"></p>
+
+        <p id="postAddress"></p>
+
     </div>
     <script src="script.js"></script>
 </body>

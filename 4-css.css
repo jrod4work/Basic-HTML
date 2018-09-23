@@ -1,0 +1,146 @@
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: #138433;
+  color: white;
+}
+
+ul.topnav li.right {
+  float: right;
+  background-color: #4caf50;
+}
+
+@media screen and (max-width: 743px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+/* Drop down Menu */
+
+.dropbtn {
+  display: inline-block;
+  /* inline-block to display them horizontally (side by side). */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #138433;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #160303;
+  min-width: 200px;
+  z-index: 1;
+}
+
+.button1 {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+  background-color: Green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button3 {
+  background-color: rgb(12, 50, 96); /*  */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+img {
+  width: 90px;
+
+  height: 90px;
+
+  float: left;
+}
+
+/* <p id="postFullName"></p>
+
+<p id="postAge"></p>
+
+<p id="postPhoneNumber"></p>
+
+<p id="postAddress"></p> */
+
+#postFullName {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  padding: 10px;
+}
+
+#postAge,
+#postPhoneNumber,
+#postAddress {
+  text-align: left;
+  padding-left: 5%;
+}
+
+#idCard {
+  margin: auto;
+
+  border: 5px solid black;
+
+  height: 14em;
+  width: 25em;
+  margin-top: 80px;
+  background-color: #3090d0;
+}
+
+label {
+  font-size: 16px;
+  line-height: 1.5em;
+}
