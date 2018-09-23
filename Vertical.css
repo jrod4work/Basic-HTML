@@ -10,16 +10,17 @@ Margin: 25px 25px 25px 25px up, right, down, left
 */
 
 /* Index
-Vertical NavBar 21-56
-ul: 20
-li: 37
-li a: 43
-li a:hover: 52
+
+ul: 26
+li: 41
+li a: 48
+li a:hover: 58
+Dropdown: 65
 
 */
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 /* Vertical Navigation Bar */
@@ -61,21 +62,29 @@ li a:hover {
 }
 
 
-/* Drop down Menu */
+/* Drop down index
+.dropdown-btn 73
+.fa-angle-down: 86
+.dropdown-container: 94
+.dropdown-container a: 96
+.dropdown-btn:hover: 109
+.dropdown-container a:hover 114
+
+*/
 
 
 .dropdown-btn {
+  font-family: "Lato", sans-serif;
   padding: 8px 16px;
-  text-decoration: none;
   color: white;
   display: block;
   border: none;
   background: none;
   width: 100%;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   outline: none;
-  font-size: 17px;
+  font-size: 16px;
   border-bottom: 1px solid #555;
 
 }
@@ -83,28 +92,10 @@ li a:hover {
   float: right;
   padding-right: 10px;
 }
-.dropdown-btn:hover {
-  background-color: #138433;
-  color: white;
-}
 
 .dropdown-container {
   display: none;
   background-color: #262626;
-}
-
-/* Optional: Style the caret down icon */
-
-
-/* Add an active class to the active dropdown button */
-.active {
-  background-color: green;
-  color: white;
-}
-
-.dropdown-container a:hover {
-  background-color: #138433;
-  color: white;
 }
 
 .dropdown-container a {
@@ -113,5 +104,15 @@ li a:hover {
   padding: 8px 16px;
   text-decoration: none;
   color: white;
-
 }
+
+.dropdown-btn:hover {
+  background-color: #138433;
+  color: white;
+}
+
+.dropdown-container a:hover {
+  background-color: #138433;
+  color: white;
+}
+
